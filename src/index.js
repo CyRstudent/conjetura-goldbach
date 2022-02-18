@@ -1,6 +1,6 @@
 const esPrimo = require('./functions/esPrimo');
 const prompt = require('prompt-sync')();
-const StrAns = prompt('Introduce un numero entero que sea mayor que 2');
+const StrAns = prompt('Introduce un numero entero que sea mayor que 2: ');
 if (typeof ans == 'undefined' || ans == null ) {
 	// eslint-disable-next-line max-len
 	console.log('Tienes que introducir algo primero. ¿Es tan dificil para ti leer?');
